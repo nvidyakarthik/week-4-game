@@ -1,5 +1,5 @@
-$( function() {
-    $( "#draggable1" ).draggable();
+ $( function() {
+    $( "#harry" ).draggable();
   } );
   $( function() {
     $( "#draggable2" ).draggable();
@@ -10,3 +10,14 @@ $( function() {
   $( function() {
     $( "#draggable4" ).draggable();
   } );
+  $('#characterbox').on('click','.character',function() {
+      $(this).removeClass('character');
+      $(this).addClass('selected');      
+      $('#enemy').append( $('#characterbox >.character') );
+}); 
+$('#enemy').on('click','.character',function() {
+    $(this).removeClass('character');
+    $(this).addClass('selected');      
+    $('#defender').append( $('#enemy >.selected') );
+}); 
+
