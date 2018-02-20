@@ -12,46 +12,30 @@
   <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
   <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
 
-  <style>
-        #draggable1 { width: 150px; height: 150px; padding: 0.5em;display:inline-block;}
-        #draggable2 { width: 150px; height: 150px; padding: 0.5em;display:inline-block;}
-        #draggable3 { width: 150px; height: 150px; padding: 0.5em;display:inline-block;}
-        #draggable4 { width: 150px; height: 150px; padding: 0.5em;display:inline-block;}
-        #enemy{
-            height:200px;width:100%;
-        }
-        </style>
-  <script>
-  $( function() {
-    $( "#draggable1" ).draggable();
-  } );
-  $( function() {
-    $( "#draggable2" ).draggable();
-  } );
-  $( function() {
-    $( "#draggable3" ).draggable();
-  } );
-  $( function() {
-    $( "#draggable4" ).draggable();
-  } );
- 
-  </script>
 </head>
 <body>
     <h1>Harry Potter RPG !</h1>
     <h2>Your Character</h2>
     <div id="character">
         <div id="draggable1" class="ui-widget-content">
-            <p>Drag me around</p>
+            <p>Harry Potter</p>
+            <img src="assets/images/Harry.jpg" alt="HarryPotter">
+            <p>120</p>
         </div>
         <div id="draggable2" class="ui-widget-content">
-            <p>Drag me around</p>
+            <p>Hermione Granger</p>
+            <img src="assets/images/Hermione.jpg" alt="Hermione">
+            <p>100</p>
         </div>
         <div id="draggable3" class="ui-widget-content">
-            <p>Drag me around</p>
+            <p>Severus Snape</p>
+            <img src="assets/images/Snape.jpg" alt="SeverusSnape">
+            <p>150</p>
         </div>
         <div id="draggable4" class="ui-widget-content">
-            <p>Drag me around</p>
+            <p>Draco Malfoy</p>
+            <img src="assets/images/DracoMalfoy.jpg" alt="DracoMalfoy">
+            <p>180</p>
         </div>
 
     </div>
@@ -64,6 +48,7 @@
     <div id="defender">
 
     </div>
+    <script src="assets/javascript/game.js"></script>
     
 </body>
 </html>

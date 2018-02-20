@@ -1,0 +1,22 @@
+
+body {
+    background-image: url("../images/HPImage1.jpg");
+    background-repeat: no-repeat;
+   
+}
+#draggable1 { width: 150px; height: 200px; padding: 0.5em;display:inline-block;}
+#draggable2 { width: 150px; height: 200px; padding: 0.5em;display:inline-block;}
+#draggable3 { width: 150px; height: 200px; padding: 0.5em;display:inline-block;}
+#draggable4 { width: 150px; height: 200px; padding: 0.5em;display:inline-block;}
+#enemy{
+    height:200px;width:100%;
+}
+img{
+    height:150px;
+    width:150px;
+}
+p {
+    text-align: center;
+    margin-top: 2px;
+    margin-bottom: 5px;
+}
