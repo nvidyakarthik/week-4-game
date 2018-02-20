@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Harry Potter2-RPG Game</title>
+    <!-- <link rel="stylesheet" href="assets/css/reset.css"> -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+  
+  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+
+  <style>
+        #draggable1 { width: 150px; height: 150px; padding: 0.5em;display:inline-block;}
+        #draggable2 { width: 150px; height: 150px; padding: 0.5em;display:inline-block;}
+        #draggable3 { width: 150px; height: 150px; padding: 0.5em;display:inline-block;}
+        #draggable4 { width: 150px; height: 150px; padding: 0.5em;display:inline-block;}
+        #enemy{
+            height:200px;width:100%;
+        }
+        </style>
+  <script>
+  $( function() {
+    $( "#draggable1" ).draggable();
+  } );
+  $( function() {
+    $( "#draggable2" ).draggable();
+  } );
+  $( function() {
+    $( "#draggable3" ).draggable();
+  } );
+  $( function() {
+    $( "#draggable4" ).draggable();
+  } );
+ 
+  </script>
+</head>
+<body>
+    <h1>Harry Potter RPG !</h1>
+    <h2>Your Character</h2>
+    <div id="character">
+        <div id="draggable1" class="ui-widget-content">
+            <p>Drag me around</p>
+        </div>
+        <div id="draggable2" class="ui-widget-content">
+            <p>Drag me around</p>
+        </div>
+        <div id="draggable3" class="ui-widget-content">
+            <p>Drag me around</p>
+        </div>
+        <div id="draggable4" class="ui-widget-content">
+            <p>Drag me around</p>
+        </div>
+
+    </div>
+    <h2>Enemies Available To Attack</h2>
+    <div id="enemy">
+
+    </div>
+    <h2>Fight Section</h2>
+    <button id="attack" type="submit" value="Attack">Attack</button>
+    <div id="defender">
+
+    </div>
+    
+</body>
+</html>
