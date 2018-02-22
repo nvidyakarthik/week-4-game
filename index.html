@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Harry Potter2-RPG Game</title>
-    <!--  <link rel="stylesheet" href="assets/css/reset.css"> -->
+     <link rel="stylesheet" href="assets/css/reset.css">
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
   
@@ -13,41 +13,29 @@
   <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
 
 </head>
-<!-- <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <title>Crystals Collector</title>
-        <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
-        <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-        <script type="text/javascript" src="assets/javascript/game.js"></script>
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
-            crossorigin="anonymous">
-    </head> -->
-<body>
+
     <h1>Harry Potter RPG !</h1>
     <h2>Your Character</h2>
     <div id="characterbox">
         <div id="harry" class="ui-widget-content character">
             <p>Harry Potter</p>
             <img src="assets/images/Harry.jpg" alt="HarryPotter">
-            <p>120</p>
+            <p class="hPoint">120</p>
         </div>
-        <div id="draggable2" class="ui-widget-content character">
+        <div id="hermione" class="ui-widget-content character">
             <p>Hermione Granger</p>
             <img src="assets/images/Hermione.jpg" alt="Hermione">
-            <p>100</p>
+            <p class="hPoint">100</p>
         </div>
-        <div id="draggable3" class="ui-widget-content character">
+        <div id="snape" class="ui-widget-content character">
             <p>Severus Snape</p>
             <img src="assets/images/Snape.jpg" alt="SeverusSnape">
-            <p>150</p>
+            <p class="hPoint">150</p>
         </div>
-        <div id="draggable4" class="ui-widget-content character">
+        <div id="malfoy" class="ui-widget-content character">
             <p>Draco Malfoy</p>
             <img src="assets/images/DracoMalfoy.jpg" alt="DracoMalfoy">
-            <p>180</p>
+            <p class="hPoint">180</p>
         </div>
 
     </div>
@@ -58,6 +46,15 @@
     <h2>Fight Section</h2>
     <button id="attack" type="submit" value="Attack">Attack</button>
     <div id="defender">
+
+    </div>
+    <div id="message">
+        <div id="line1">
+
+        </div>
+        <div id="line2">
+
+        </div>
 
     </div>
     <script src="assets/javascript/game.js"></script>

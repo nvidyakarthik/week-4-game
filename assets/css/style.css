@@ -5,9 +5,9 @@ body {
    
 }
 #harry { width: 150px; height: 200px; padding: 0.5em;display:inline-block;}
-#draggable2 { width: 150px; height: 200px; padding: 0.5em;display:inline-block;}
-#draggable3 { width: 150px; height: 200px; padding: 0.5em;display:inline-block;}
-#draggable4 { width: 150px; height: 200px; padding: 0.5em;display:inline-block;}
+#hermione { width: 150px; height: 200px; padding: 0.5em;display:inline-block;}
+#snape { width: 150px; height: 200px; padding: 0.5em;display:inline-block;}
+#malfoy { width: 150px; height: 200px; padding: 0.5em;display:inline-block;}
 #enemy{
     height:200px;width:100%;
 }
