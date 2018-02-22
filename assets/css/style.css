@@ -1,4 +1,3 @@
-
 body {
     background-image: url("../images/HPImage1.jpg");
     background-repeat: no-repeat;
@@ -8,9 +7,9 @@ body {
 #hermione { width: 150px; height: 200px; padding: 0.5em;display:inline-block;}
 #snape { width: 150px; height: 200px; padding: 0.5em;display:inline-block;}
 #malfoy { width: 150px; height: 200px; padding: 0.5em;display:inline-block;}
-#enemy{
+/* #enemy{
     height:200px;width:100%;
-}
+} */
 img{
     height:150px;
     width:150px;
