@@ -1,22 +1,36 @@
 body {
     background-image: url("../images/HPImage1.jpg");
     background-repeat: no-repeat;
-   
+    font-family: courier;
+    font-size: 14px;
+    margin: 20px;
 }
-#harry { width: 150px; height: 200px; padding: 0.5em;display:inline-block;}
-#hermione { width: 150px; height: 200px; padding: 0.5em;display:inline-block;}
-#snape { width: 150px; height: 200px; padding: 0.5em;display:inline-block;}
-#malfoy { width: 150px; height: 200px; padding: 0.5em;display:inline-block;}
-/* #enemy{
-    height:200px;width:100%;
-} */
-img{
-    height:150px;
-    width:150px;
+
+#harry, #hermione, #snape, #malfoy {
+    width: 150px;
+    height: 150px;
+    padding: 0.5em;
+    display: inline-block;
+    text-align: center;
 }
+img {
+    height: 115px;
+    width: 135px;
+}
+
 p {
     text-align: center;
     margin-top: 2px;
     margin-bottom: 5px;
 }
 
+h2 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+h1 {
+    font-size: 26px;
+    font-weight: bold;
+    text-align: center;
+}
