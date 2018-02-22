@@ -22,17 +22,24 @@ $(document).ready(function () {
     $(this).addClass('selected');
     opponent = $(this).attr('id');
     console.log("I am player 2" + opponent);
+    $("#line1").html("");
+    $("#line2").html("");
     $('#defender').append($('#enemy >.selected'));
   });
-  $("#restart").on('click', function () {
-    // location.reload();
-    alert("test");
+  $("#line2").on('click','#restart', function () {
+      location.reload();
+    //console.log("inside")
+    //alert("test");
 
   });
 
   $("#attack").click(function () {
+    if(!$.trim( $('#defender').html() ).length){
+       $("#line1").html("No enemy here pick a new one.")
 
-    if (objName[opponent]["healthPoints"] > 0 && objName[player]["healthPoints"] > 0) {
+    }
+
+    if (objName[opponent]["healthPoints"] >= 0 && objName[player]["healthPoints"] >= 0) {
 
       //player attacking opponent
       var opponentDamage = objName[player]["attackPower"] * (upPower++);
