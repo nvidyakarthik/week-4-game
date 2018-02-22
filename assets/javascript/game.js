@@ -14,16 +14,20 @@ $(document).ready(function () {
     $(this).addClass('selected');
     player = $(this).attr('id');
     console.log("I am player 1" + player);
+    $(this).css('background-color', 'green');
+    $('.character').css('background-color', 'red');
     $('#enemy').append($('#characterbox >.character'));
   });
 
   $('#enemy').on('click', '.character', function () {
+
     $(this).removeClass('character');
     $(this).addClass('selected');
     opponent = $(this).attr('id');
     console.log("I am player 2" + opponent);
     $("#line1").html("");
     $("#line2").html("");
+    $('#'+opponent).css('background-color', 'green');       
     $('#defender').append($('#enemy >.selected'));
   });
   $("#line2").on('click', '#restart', function () {
