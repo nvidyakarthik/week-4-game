@@ -1,27 +1,82 @@
 body {
-    background-image: url("../images/HPImage1.jpg");
-    background-repeat: no-repeat;
+    
     font-family: courier;
     font-size: 14px;
-    margin: 20px;
+    margin: 2px;    
+    background-color: #f5f5f5;  
+}
+.panel-default>.panel-heading {
+    color: #8c6f6ff2;
+    background-color: #067d2e1a;
+    border-color: #ccc;
+}
+.panel-heading {
+    padding-top: 1px;
+    padding-bottom:1px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+}
+.panel-body {
+    
+    height: 208px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.col-xs-12 {
+    
+    margin-bottom: -5px;
+}
+.container{
+    width:1180px;
 }
 
+.glyphicon {
+    left: 855px;
+}
+.well{
+    background-color: #e6f2ea;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    min-height:80px;
+    margin-top: -11px;
+
+}
+.btn-primary {
+    color: #fff;
+    background-color: #e6f2ea;
+    border-color: #cbcbcb;
+    font-size: 21px;
+    color: #9c7f75;
+    font-weight: bold;
+    margin-top: 60px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+button#restart {
+    margin-top: 0px;
+}
 #harry, #hermione, #snape, #malfoy {
-    width: 150px;
-    height: 150px;
+    width: 172px;
+    height: 172px;
     padding: 0.5em;
     display: inline-block;
     text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 img {
     height: 115px;
     width: 135px;
+    
 }
-
 p {
     text-align: center;
     margin-top: 2px;
     margin-bottom: 5px;
+    color:#777;
+    font-weight:bold;
+}
+#line1,#line2 {
+    
+    font-size: 19px;
+    font-weight: bold;
+    color: #777;
 }
 
 h2 {
@@ -30,7 +85,9 @@ h2 {
 }
 
 h1 {
-    font-size: 26px;
+    font-size: 36px;
     font-weight: bold;
     text-align: center;
+    text-shadow: 2px 2px 4px #d4c2c2;
+    color: #655a5a;
 }

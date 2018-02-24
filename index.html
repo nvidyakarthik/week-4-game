@@ -1,64 +1,120 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">  
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Harry Potter2-RPG Game</title>
-     <link rel="stylesheet" href="assets/css/reset.css">
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/reset.css">
+    
     <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
-  
-  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
-  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
-
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css">    
 </head>
 
-    <h1>Harry Potter RPG !</h1>
-    <h2>Your Character</h2>
-    <div id="characterbox">
-        <div id="harry" class="ui-widget-content character">
-            <p>Harry Potter</p>
-            <img src="assets/images/Harry.jpg" alt="HarryPotter">
-            <p class="hPoint">120</p>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12">
+                <h1>Harry Potter RPG !</h1>
+            </div>
         </div>
-        <div id="hermione" class="ui-widget-content character">
-            <p>Hermione Granger</p>
-            <img src="assets/images/Hermione.jpg" alt="Hermione">
-            <p class="hPoint">100</p>
+        <div class="row">
+            <div class="col-xs-12">
+
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h2>Pick Your Character
+                            <span class="glyphicon glyphicon-question-sign"></span>
+                        </h2>
+                    </div>
+                    <div class="panel-body">
+                        <div id="characterbox">
+                            <div id="harry" class="ui-widget-content character">
+                                <p>Harry Potter</p>
+                                <img src="assets/images/Harry.jpg" alt="HarryPotter">
+                                <p class="hPoint">120</p>
+                            </div>
+                            <div id="hermione" class="ui-widget-content character">
+                                <p>Hermione Granger</p>
+                                <img src="assets/images/Hermione.jpg" alt="Hermione">
+                                <p class="hPoint">100</p>
+                            </div>
+                            <div id="snape" class="ui-widget-content character">
+                                <p>Severus Snape</p>
+                                <img src="assets/images/Snape.jpg" alt="SeverusSnape">
+                                <p class="hPoint">150</p>
+                            </div>
+                            <div id="malfoy" class="ui-widget-content character">
+                                <p>Draco Malfoy</p>
+                                <img src="assets/images/DracoMalfoy.jpg" alt="DracoMalfoy">
+                                <p class="hPoint">180</p>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div id="snape" class="ui-widget-content character">
-            <p>Severus Snape</p>
-            <img src="assets/images/Snape.jpg" alt="SeverusSnape">
-            <p class="hPoint">150</p>
+        <div class="row">
+            <div class="col-xs-6">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h2>Enemies Available To Attack</h2>
+                    </div>
+                    <div class="panel-body">
+                        <div id="enemy">
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-xs-6">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h2>Fight Section-Defender</h2>
+                    </div>
+                    <div class="panel-body">
+                        <div class="col-xs-8">
+
+                            <div id="defender">
+
+                            </div>
+                        </div>
+                        <div class="col-xs-4">
+                            <button id="attack" class="btn btn-primary" type="submit">Attack</button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
         </div>
-        <div id="malfoy" class="ui-widget-content character">
-            <p>Draco Malfoy</p>
-            <img src="assets/images/DracoMalfoy.jpg" alt="DracoMalfoy">
-            <p class="hPoint">180</p>
+        <div class="row">
+
+            <div class="col-xs-12">
+                <div class="well">
+
+                    <div id="message">
+                        <div id="line1">
+
+                        </div>
+                        <div id="line2">
+
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
         </div>
-
-    </div>
-    <h2>Enemies Available To Attack</h2>
-    <div id="enemy">
-
-    </div>
-    <h2>Fight Section</h2>
-    <button id="attack" type="submit" value="Attack">Attack</button>
-    <h2>Defender</h2>
-    <div id="defender">
-
-    </div>
-    <div id="message">
-        <div id="line1">
-
-        </div>
-        <div id="line2">
-
-        </div>
-
     </div>
     <script src="assets/javascript/game.js"></script>
-    
+
 </body>
+
 </html>
