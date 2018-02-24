@@ -36,11 +36,6 @@ $(document).ready(function () {
     }
   });
 
-  
-$(".glyphicon").on("click",function() {
-  alert("test");
-  
-});
 
   //The restart button is dynamically added so adding a onclick on restart button won't work
   //Do the onclick function on the div that encloses restart button
