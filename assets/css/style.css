@@ -5,7 +5,7 @@ body {
     margin: 2px;    
     background-color: #f5f5f5;  
 }
-.panel-default>.panel-heading {
+.panel-default>.panel-heading ,.modal-header{
     color: #8c6f6ff2;
     background-color: #067d2e1a;
     border-color: #ccc;
@@ -45,13 +45,16 @@ body {
     border-color: #cbcbcb;
     font-size: 21px;
     color: #9c7f75;
-    font-weight: bold;
-    margin-top: 60px;
+    font-weight: bold;    
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
-button#restart {
-    margin-top: 0px;
+#attack{
+    margin-top: 60px;
+
 }
+/* button#restart {
+    margin-top: 0px;
+} */
 #harry, #hermione, #snape, #malfoy {
     width: 172px;
     height: 172px;
